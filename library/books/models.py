@@ -1,3 +1,12 @@
 from django.db import models
 
-# Create your models here.
+
+class Shelf(models.Model):
+
+    location = models.CharField(max_length=255)
+
+
+class Book(models.Model):
+
+    title = models.CharField(max_length=255)
+    shelf = models.ForeignKey(Shelf, related_name='books')
