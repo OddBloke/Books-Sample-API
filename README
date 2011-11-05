@@ -1,0 +1,7 @@
+This is a sample django-piston project.
+
+I developed this whilst writing a blog post, which you can find at http://blog.daniel-watkins.co.uk/prompt-piston-primer.
+
+In order to run this you will need the following installed:
+* Django
+* django-piston
